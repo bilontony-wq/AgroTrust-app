@@ -1,5 +1,6 @@
+
 name: agrotrust_app
-description: Application AgroTrust pour agriculteurs au Togo
+description: Application AgroTrust
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,6 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
